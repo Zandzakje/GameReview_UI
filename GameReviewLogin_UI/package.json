@@ -1,0 +1,17 @@
+{
+  "name": "game-review-login_ui",
+  "version": "0.0.0",
+  "description": "GameReviewLogin_UI",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
+  }
+}
