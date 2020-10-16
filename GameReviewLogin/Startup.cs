@@ -26,7 +26,8 @@ namespace GameReviewLogin
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/build";
+                //C:\Users\Gebruiker\Desktop\School\Visual Studio\Fontys\2020 - 2021\Semester 3\GameReviewLogin\GameReviewLogin_UI
+                configuration.RootPath = "../GameReviewLogin_UI/build";
             });
         }
 
@@ -59,7 +60,7 @@ namespace GameReviewLogin
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "ClientApp";
+                spa.Options.SourcePath = "../GameReviewLogin_UI";
 
                 if (env.IsDevelopment())
                 {

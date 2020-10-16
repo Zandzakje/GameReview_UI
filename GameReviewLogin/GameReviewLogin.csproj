@@ -5,7 +5,7 @@
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
-    <SpaRoot>ClientApp\</SpaRoot>
+    <SpaRoot>../GameReviewLogin_UI</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
   </PropertyGroup>
 
@@ -15,9 +15,34 @@
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="GameReviewLogin_UI\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="GameReviewLogin_UI\**" />
+    <EmbeddedResource Remove="GameReviewLogin_UI\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="GameReviewLogin_UI\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="GameReviewLogin_UI\.gitignore" />
+    <None Remove="GameReviewLogin_UI\package-lock.json" />
+    <None Remove="GameReviewLogin_UI\package.json" />
+    <None Remove="GameReviewLogin_UI\public\favicon.ico" />
+    <None Remove="GameReviewLogin_UI\public\index.html" />
+    <None Remove="GameReviewLogin_UI\public\manifest.json" />
+    <None Remove="GameReviewLogin_UI\README.md" />
+    <None Remove="GameReviewLogin_UI\src\App.js" />
+    <None Remove="GameReviewLogin_UI\src\App.test.js" />
+    <None Remove="GameReviewLogin_UI\src\components\Counter.js" />
+    <None Remove="GameReviewLogin_UI\src\components\FetchData.js" />
+    <None Remove="GameReviewLogin_UI\src\components\Home.js" />
+    <None Remove="GameReviewLogin_UI\src\components\Layout.js" />
+    <None Remove="GameReviewLogin_UI\src\components\NavMenu.css" />
+    <None Remove="GameReviewLogin_UI\src\components\NavMenu.js" />
+    <None Remove="GameReviewLogin_UI\src\custom.css" />
+    <None Remove="GameReviewLogin_UI\src\index.js" />
+    <None Remove="GameReviewLogin_UI\src\registerServiceWorker.js" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
