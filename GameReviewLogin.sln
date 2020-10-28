@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameReviewLogin", "GameReviewLogin\GameReviewLogin.csproj", "{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{26F53364-9890-4D27-B6B1-1FEA436A9184}"
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GameReviewLogin_UI", "GameReviewLogin_UI\GameReviewLogin_UI.njsproj", "{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26F53364-9890-4D27-B6B1-1FEA436A9184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26F53364-9890-4D27-B6B1-1FEA436A9184}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26F53364-9890-4D27-B6B1-1FEA436A9184}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26F53364-9890-4D27-B6B1-1FEA436A9184}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="../GameReviewLogin_UI%2a%2a" />
     <None Remove="GameReviewLogin_UI\.gitignore" />
     <None Remove="GameReviewLogin_UI\package-lock.json" />
     <None Remove="GameReviewLogin_UI\package.json" />
