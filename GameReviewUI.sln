@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameReviewLogin", "GameReviewLogin\GameReviewLogin.csproj", "{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameReviewUI", "GameReviewUI\GameReviewUI.csproj", "{7FB564C0-5DAA-4FD7-B489-D49479E5E50B}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GameReviewLogin_UI", "GameReviewLogin_UI\GameReviewLogin_UI.njsproj", "{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GameReviewUI_React", "GameReviewUI_React\GameReviewUI_React.njsproj", "{B054DEE7-DD76-42DA-B7D4-67D3E950D5E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GameReviewLogin.Models
+namespace GameReviewUI.Models
 {
     public class RegisterViewModel : UserViewModel
     {

@@ -27,7 +27,7 @@ namespace GameReviewLogin
             services.AddSpaStaticFiles(configuration =>
             {
                 //C:\Users\Gebruiker\Desktop\School\Visual Studio\Fontys\2020 - 2021\Semester 3\GameReviewLogin\GameReviewLogin_UI
-                configuration.RootPath = "../GameReviewLogin_UI/build";
+                configuration.RootPath = "../GameReviewUI_React/build";
             });
         }
 
@@ -60,7 +60,7 @@ namespace GameReviewLogin
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "../GameReviewLogin_UI";
+                spa.Options.SourcePath = "../GameReviewUI_React";
 
                 if (env.IsDevelopment())
                 {

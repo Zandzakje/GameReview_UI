@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GameReviewLogin.Controllers
+namespace GameReviewUI.Models
 {
-    public class LoginController
+    public class LoginViewModel : UserViewModel
     {
+        
     }
 }

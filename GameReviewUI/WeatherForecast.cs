@@ -1,6 +1,6 @@
 using System;
 
-namespace GameReviewLogin
+namespace GameReviewUI
 {
     public class WeatherForecast
     {
