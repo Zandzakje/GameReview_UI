@@ -7,6 +7,6 @@ namespace GameReviewUI.Models
 {
     public class LoginViewModel : UserViewModel
     {
-        
+
     }
 }
